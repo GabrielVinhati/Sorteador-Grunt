@@ -5,6 +5,7 @@
   "scripts": {
     "grunt": "grunt",
     "build": "grunt build",
+    "start": "npm run build && vercel dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
